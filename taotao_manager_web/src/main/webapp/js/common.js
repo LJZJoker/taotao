@@ -99,7 +99,7 @@ var TT = TAOTAO = {
     		if(data && data.cid){
     			_ele.after("<span style='margin-left:10px;'>"+data.cid+"</span>");
     		}else{
-    			_ele.after("<span style='margin-left:10px;'></span>");
+    			_ele.after("<span style='mar  gin-left:10px;'></span>");
     		}
     		_ele.unbind('click').click(function(){
     			//创建一个div标签
@@ -125,7 +125,7 @@ var TT = TAOTAO = {
     			    				
     			    				$(_win).window('close');
     			    				if(data && data.fun){
-    			    					alert(data);
+    			    					//alert(data);
     			    					data.fun.call(this,node);
     			    				}
     			    			}
